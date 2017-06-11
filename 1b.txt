@@ -1,0 +1,26 @@
+/*
+  Wyznacz najmniejszą i największą liczbę znajdującą się w liście
+  [40, 6, 91, 8, 1, 100, 4, 2]
+  
+  a) nie uzywaj petli ani metod Array
+  b) uzyj metody Array 
+ */
+
+ var v = new Array (40, 6, 91, 8, 1, 100, 4, 2);
+ var min = v[0];
+ var max = v[0];
+ 
+ 
+ for (i = 1; i < v.length; i++) {
+
+if (min > v[i]) {
+
+min = v[i];
+}
+
+if (max < v[i]) {
+
+max = v[i];
+ 
+ }
+ }
